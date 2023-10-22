@@ -77,9 +77,9 @@ class AuthenticatedViewSet(BaseViewSet):
         return response
 
     def perform_destroy(self, instance):
-        instance.deleted = True
+        # instance.deleted = True
+        instance.delete()
         instance.save()
-        # instance.delete()
 
 
 class AuthenticatedViewSetWithDelete(BaseViewSet):

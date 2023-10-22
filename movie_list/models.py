@@ -34,7 +34,7 @@ class Movies(AppBaseModel):
     title = models.CharField(max_length=200)
     description = models.TextField()
     genres = models.ManyToManyField(Genres, blank=True)
-    uuid = models.CharField(max_length=200)
+    uuid = models.CharField(max_length=200, unique=True)
 
 
 class Collections(AppBaseModel):

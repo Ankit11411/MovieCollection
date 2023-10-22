@@ -1,0 +1,43 @@
+{
+  "title": "Best of 2022",
+  "description": "A collection of some of the best movies released in 2022.",
+  "movies": [
+    {
+      "title": "Betrayal",
+      "description": "When one of her hits goes wrong, a professional assassin ends up with a suitcase full of a million dollars belonging to a mob boss ...",
+      "genres": [
+        {
+          "title": "Action"
+        },
+        {
+          "title": "Drama"
+        },
+        {
+          "title": "Thriller"
+        }
+      ]
+    },
+    {
+      "title": "Sci-Fi Odyssey",
+      "description": "Explore the depths of the universe with these mind-bending science fiction films.",
+      "genres": [
+        {
+          "title": "Science Fiction"
+        },
+        {
+          "title": "Adventure"
+        }
+      ]
+    },
+    {
+      "title": "Comedy Classics",
+      "description": "Laugh your heart out with these timeless comedy movies.",
+      "genres": [
+        {
+          "title": "Comedy"
+        }
+      ]
+    }
+  ],
+  "user": 5
+}
